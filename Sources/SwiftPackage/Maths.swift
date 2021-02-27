@@ -1,4 +1,4 @@
-struct Maths {
+public struct Maths {
     static func add(numbers: Int...) -> Int {
         var sum = 0
         numbers.forEach { number in
