@@ -1,9 +1,9 @@
 import XCTest
 
 import SwiftPackageTests
-import MathTests
+import MathsTests
 
 var tests = [XCTestCaseEntry]()
 tests += SwiftPackageTests.allTests()
-tests += MathTests.allTests()
+tests += MathsTests.allTests()
 XCTMain(tests)
