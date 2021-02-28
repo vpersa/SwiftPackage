@@ -4,7 +4,7 @@ import XCTest
 final class MathsTests: XCTestCase {
     func test_twoNumbersSum() {
         let result = Maths.add(numbers: 1, 1)
-        XCTAssertEqual(result, 2)
+        XCTAssertEqual(result, 3)
     }
 
     func test_threeNumbersSum() {
